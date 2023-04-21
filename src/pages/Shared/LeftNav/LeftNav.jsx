@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import RightsidedCards from "../RightsidedCards/RightsidedCards";
 
 const LeftNav = () => {
   const [categories, setCategories] = useState([]);
@@ -26,6 +27,7 @@ const LeftNav = () => {
           </p>
         ))}
       </div>
+      <RightsidedCards></RightsidedCards>
     </div>
   );
 };
